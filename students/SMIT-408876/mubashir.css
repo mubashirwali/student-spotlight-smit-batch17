@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-containor{
+    width: 100%;
+    height: 60px;
+    background-color:#333;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-logo{
+   padding-top: 15px;
+    color: #fff;
+}
+.nav-links{
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.nav-links ul li a:hover{
+    color: #333;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.hero {
+    background-color: #333;
+}
+
+.hero-contenor {
+    display: flex;
+    justify-content: space-around;
+}
+.hero-text {
+    width: 100%;
+    padding-left: 40px;
+}
+.hero-text h1 span {
+     font-size: 20px;
+    color: green;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 5px;
+}
+.hero-text h1 {
+     font-size: 80px;
+    color: white;
+    font-family: 'poppins' , sans-serif;
+}
+.hero-text h2 {
+     font-size: 25spx;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-top: 20px;
+}
+.hero-text h2 span{
+     color: green;
+
+}
+.hero-btn button{
+     padding: 10px 20px;
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+.hero-btn button:hover {
+     transform: scale(1.1);
+}
+.hero-image{
+    padding-right: 40px;
+}
+
+.about-containor {
+    display: flex;
+}
+.about-picture img {
+    width: 30%;
+}
