@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- link css  -->
+    <link rel="stylesheet" href="mubashir.css">
+    <!-- link js  -->
+    <script src="mubashir.js"></script>
+    <!-- link font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="multi-border">
+
+
+        <!-- nav bar  -->
+        <nav>
+            <div class="nav-containor">
+                <div class="nav-logo">
+                    <h2>Mubashir Wali</h2>
+
+                </div>
+                <!-- humburger button  -->
+                <div class="humburger" onclick="togglemenu()">
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+                <div class="nav-links" id="mobilemenu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact ME</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr style=" border-image: linear-gradient(45deg, #ff3cac, #784ba0, #2b86c5, #00eaff, #00ff6c) 1;">
+        </nav>
+
+        <!-- Hero Section  -->
+        <section class="hero" id="home">
+            <div class="hero-contenor">
+                <div class="hero-text">
+                    <h1> <span>HELLO I'M</span> <br>
+                        Mubashir <br>
+                        Wali
+                    </h1>
+                    <h2> A Passionate <span>FreeLancer</span></h2>
+
+                    <div class="hero-btn">
+                        <button>Hire ME</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./assets/nano-banana-no-bg-2025-09-02T16-27-19-removebg-preview.png"
+                        alt="Portfolio-image">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About-section  -->
+
+        <section class="About-us" id="about">
+            <div class="about-containor">
+                <div class="about-picture">
+                    <img src="./assets/nano-banana-no-bg-2025-09-02T16-27-19.png" alt="">
+
+                </div>
+                <div class="about-text">
+                    <h3>ABOUT ME</h3>
+                    <h2>I Develop System that Works</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ducimus excepturi sunt croccat, ducimus laudantium,
+                        quia atque ipsa quae explicabo inventore veritatis.
+                    </p>
+                    <div class="about-btn">
+                        <button>Hire ME</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skil-Section  -->
+        <section class="skill" id="skill">
+            <div class="skill-containor">
+                <div class="skill-text">
+                    <h3>MY SKILLS</h3>
+                    <h2> My Technical Level</h2>
+                </div>
+                <div class="skill-bar">
+                    <div class="bar">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h3>HTML</h3>
+                        <p>Proficient in building semantic and responsive web pages.</p>
+                    </div>
+                    <div class="bar">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h3>CSS</h3>
+                        <p>Experienced in Flexbox, Grid, animations, and modern layouts.</p>
+                    </div>
+                    <div class="bar">
+                        <i class="fab fa-js skill-icon"></i>
+                        <h3>JavaScript</h3>
+                        <p>Skilled in ES6+, DOM manipulation, and interactive web apps.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="services-container">
+
+                <div class="services-text">
+                    <h3>MY SERVICES</h3>
+                    <h2>What I Offer</h2>
+                </div>
+
+                <div class="services-boxes">
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>I build responsive, fast, and modern websites using HTML, CSS, and JavaScript.</p>
+                        <div class="service-btn">
+                            <button>Hire ME</button>
+                        </div>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>I design clean, modern & user-friendly interfaces with a focus on user experience.</p>
+                        <div class="service-btn">
+                            <button>Hire ME</button>
+                        </div>
+                    </div>
+
+                    <div class="service-box">
+                        <i class="fa-solid fa-bullhorn"></i>
+                        <h3>Digital Marketing</h3>
+                        <p>I help brands grow through SEO, social media marketing, and targeted campaigns.</p>
+                        <div class="service-btn">
+                            <button>Hire ME</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="projects-container">
+
+                <div class="projects-text">
+                    <h3>MY PROJECTS</h3>
+                    <h2>Recent Works</h2>
+                </div>
+
+                <div class="project-boxes">
+
+                    <!-- Project 1 -->
+                    <div class="project-box">
+                        <img src="./assets/127.0.0.1_5501_index.html.png" alt="Restaurant Project">
+
+                        <h3>Restaurant Website</h3>
+                        <p>A modern, responsive restaurant website with clean UI.</p>
+
+                        <div class="project-buttons">
+                            <a href="http://silly-sunshine-13a661.netlify.app" target="_blank" class="live-btn">Live
+                                Demo</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-box">
+                        <img src="./assets/127.0.0.1_5501_index.html (3).png" alt="Apple Clone">
+
+                        <h3>solplant Website</h3>
+                        <p>A modern, responsive Solplant website with clean UI.</p>
+
+                        <div class="project-buttons">
+                            <a href="http://effulgent-lamington-5c8a0b.netlify.app" target="_blank"
+                                class="live-btn">Live Demo</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-box">
+                        <img src="./assets/127.0.0.1_5502_index.html.png" alt="Booking Website">
+
+                        <h3>Stylis Online Store</h3>
+                        <p> A modern, responsive Stylish website with clean UI.</p>
+
+                        <div class="project-buttons">
+                            <a href="http://elegant-manatee-5f7a07.netlify.app" target="_blank" class="live-btn">Live
+                                Demo</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+
+                <div class="contact-text">
+                    <h3>CONTACT ME</h3>
+                    <h2>Get In Touch</h2>
+                    <p>If you have any project in mind, feel free to contact me. I’m available for freelance work.</p>
+
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-envelope"></i> mubashirwali78@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +92 319 6390477</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="footer-container">
+
+                <!-- Logo & Copyright -->
+                <div class="footer-section">
+                    <!-- <img src="images/logo/logo-dark.png" class="footer-logo" alt="Logo"> -->
+                    <h2 style="color: #3cb043; font-weight: 400; letter-spacing: 3px; margin-bottom: 20px;">MubashirWali
+                    </h2>
+                    <p>All rights reserved © 2025 <a href="#">MubashirWali</a></p>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-section">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    </div>
+
+
+
+</body>
+
+</html>
